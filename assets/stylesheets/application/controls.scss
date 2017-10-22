@@ -1,0 +1,52 @@
+label {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input {
+  transition: 0.3s border-color;
+  width: 100%;
+  height: 36px;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+  outline: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: #333;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+
+  &:focus {
+    border-color: #08b3f2;
+  }
+}
+
+.button {
+  transition: 0.3s background-color,
+              0.3s color;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0 15px;
+  color: #fff;
+  padding-left: 30px;
+  box-sizing: border-box;
+  background-color: #08b3f2;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAAMFBMVEX///////////////////////////////////////////////////////////////9Or7hAAAAAD3RSTlMAPT5BSUpRUt3f5ufp6vUxUI2NAAAASUlEQVR42rWROw7AMAxC3abN3+b+t80WZYAxb/STsAR2kr0+xnAgEhMVwryhTLpjvg5CFOugTCXc/sGj1PM7d12irl0Plb3taRdkbQmzeFkz0wAAAABJRU5ErkJggg==);
+  background-size: 12px 10px;
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  line-height: 36px;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #34c3f8;
+  }
+}

@@ -1,0 +1,11 @@
+.phone-number {
+  .description {
+    margin-bottom: 20px;
+  }
+
+  &-content {
+    display: inline-block;
+    width: 460px;
+    text-align: left;
+  }
+}

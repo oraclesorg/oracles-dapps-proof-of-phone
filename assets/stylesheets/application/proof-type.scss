@@ -1,0 +1,30 @@
+.proof-type {
+  margin-bottom: 40px;
+
+  select {
+    @include image-2x('../images/select@2x.png', 10px, 5px);
+    cursor: pointer;
+    appearance: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 0 30px 0 15px;
+    background-color: #fff;
+    background-image: url(../images/select.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+
+    &:disabled {
+      cursor: pointer;
+      background-color: #f5f5f5;
+    }
+  }
+}
